@@ -5,8 +5,8 @@ import os
 
 def template_matching():
     # Placeholder paths - ensure files exist
-    img_path = 'main_image.jpg'
-    template_path = 'template.jpg'
+    img_path = 'assets/main_image.jpg'
+    template_path = 'assets/template.jpg'
     
     if not os.path.exists(img_path) or not os.path.exists(template_path):
         print("Images not found. Please provide 'main_image.jpg' and 'template.jpg'")

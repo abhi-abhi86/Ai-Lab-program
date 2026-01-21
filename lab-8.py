@@ -4,7 +4,7 @@ import sys
 
 def main():
     # Load image (Use a placeholder filename or provide a path)
-    filename = 'smarties.png' # Example filename
+    filename = 'assets/smarties.png' # Example filename
     if len(sys.argv) > 1:
         filename = sys.argv[1]
     
