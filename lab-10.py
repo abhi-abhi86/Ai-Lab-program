@@ -41,9 +41,9 @@ def main():
     ax.legend()
     
     print("Displaying 3D plot of dataset for Multiple Linear Regression...")
-    plt.savefig('lab-10-output.png')
-    print("Saved 3D plot to lab-10-output.png")
-    # plt.show()
+    # plt.savefig('lab-10-output.png')
+    # print("Saved 3D plot to lab-10-output.png")
+    plt.show()
 
 if __name__ == "__main__":
     main()

@@ -44,10 +44,10 @@ def template_matching():
         plt.subplot(122), plt.imshow(img, cmap='gray')
         plt.title('Detected Point'), plt.xticks([]), plt.yticks([])
         plt.suptitle(meth)
-        plt.savefig('lab-9-output.png')
-        print(f"Saved matching result for {meth} to lab-9-output.png")
-        break # Just save one for the README
-        # plt.show()
+        # plt.savefig('lab-9-output.png')
+        print(f"Displayed matching result for {meth}")
+        plt.show()
+        break # Just show one depending on requirements
 
 if __name__ == "__main__":
     print("Starting Template Matching...")

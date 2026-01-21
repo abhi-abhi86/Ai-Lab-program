@@ -43,11 +43,11 @@ def main():
             radius = i[2]
             cv2.circle(src, center, radius, (255, 0, 255), 3)
             
-    # cv2.imshow("detected circles", src)
-    cv2.imwrite("lab-8-output.png", src)
-    print("Saved output to lab-8-output.png")
-    # cv2.waitKey(0)
-    # cv2.destroyAllWindows()
+    cv2.imshow("detected circles", src)
+    # cv2.imwrite("lab-8-output.png", src)
+    print("Displayed output in window")
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
 
 if __name__ == "__main__":
     # Note: This requires an actual image file to run locally
