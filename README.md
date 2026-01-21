@@ -99,18 +99,18 @@ Chatbot: Goodbye! Have a nice day.
 ```
 
 ### lab-8.py: Hough Circle Transform
-**Description**: Detects circles in an image (`smarties.png` by default) using OpenCV.
+**Description**: Detects circles in an image (`assets/smarties.png` by default) using OpenCV.
 **Output**: 
-![Lab 8 Output](lab-8-output.png)
+![Lab 8 Output](assets/lab-8-output.png)
 *(Result of detecting circles on synthetic input)*
 
 ### lab-9.py: Template Matching
 **Description**: Finds a template image within a larger main image using various matching methods.
 **Output**:
-![Lab 9 Output](lab-9-output.png)
+![Lab 9 Output](assets/lab-9-output.png)
 *(Template matching result using cv2.TM_CCOEFF)*
 
 ### lab-10.py: Multiple Linear Regression (Visualization)
 **Description**: Generates a dummy 3D dataset and visualizes it.
 **Output**:
-![Lab 10 Output](lab-10-output.png)
+![Lab 10 Output](assets/lab-10-output.png)
